@@ -1,0 +1,41 @@
+body{
+    background-color: #ECCEAE;
+    color:#131842;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    background-color: #131842;
+    color:#FBF6E2;
+    margin: 0;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+}
+h3{
+    background-color: #131842;
+    color:#FBF6E2;
+    margin: 0;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    overflow: hidden;
+}
+.click {
+    overflow: hidden;
+    align-items: center;
+    color: #FBF6E2;
+    text-align: center;
+    background-color: #131842;
+    display: inline-block;
+    padding: 1em 3.5em;
+    border-radius: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+  
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+
+}

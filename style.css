@@ -1,0 +1,180 @@
+.topnav {
+    overflow: hidden;
+    background-color:#131842;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #FBF6E2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color:#E68369;
+    color: black;
+  }
+
+  
+.body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ECCEAE;
+    align-items: center;
+    
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.first{
+    background-image: url('girl.png');
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+}
+.first h1{
+    background-color: #131842;
+    padding: 18px;
+    font-size: 25px;
+    border-radius: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.second{
+    background-image: url('www.png');
+    
+    padding: 20px;
+    text-align: center;
+    min-height: 400px;
+}
+.second h1{
+    background-color: #131842;
+    padding: 18px;
+    font-size: 25px;
+    border-radius: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.third{
+    background-image: url('dance.png');
+    
+    padding: 20px;
+    text-align: center;
+    min-height: 400px;
+}
+.third h1{
+    background-color: #131842;
+    padding: 18px;
+    font-size: 25px;
+    border-radius: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.fourth{
+    background-image: url('dev.png');
+    
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+ 
+}
+
+#parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ECCEAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FBF6E2;
+
+}
+#content{
+    padding: 20px 40px;
+    text-align: justify;
+    color:#FBF6E2;
+    background-color:#131842;
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+
+  .column {
+    float: left;
+    width: auto;
+    padding: 10px 10px;
+  }
+  
+  .card {
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    background-color: #131842;
+    color: #FBF6E2;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5em;
+  }
+
+  .imgg { 
+    overflow: hidden;
+    align-items: center;
+    color: #131842;
+    text-align: center;
+    background-color: #FBF6E2;
+    display: inline-block;
+    padding: 1em 3.5em;
+    border-radius: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+  
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+
+  .aa a:hover{
+    background-color:#E68369;
+    color: black;
+  }
+
+  .aa{
+    align-items: center;
+  }
+  .bottom-container {
+    text-align: center;
+    background-color: #ECCEAE;
+    padding: 50px 0 20px;
+    align-items: center;
+    text-decoration: none;
+  }
+.btn{
+    overflow: hidden;
+    align-items: center;
+    color: #131842;
+    text-align: center;
+    background-color: #FBF6E2;
+    display: inline-block;
+    padding: 1em 3.5em;
+    border-radius: 0.3em;
+  
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:#E68369;
+    color: black;
+}
